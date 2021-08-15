@@ -3,11 +3,20 @@ body
     background-image: url('/images/bg-image.png');
 }
 
-
 .headings
 {
-    font-family: 'Source Sans Pro', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 1rem;
+    color: crimson;
+}
+
+.heading2
+{
+    font-family: 'Montserrat', sans-serif;
+    color: crimson;
+    font-size: 3rem;
     font-weight: 900;
     padding: 1rem;
 }
@@ -17,7 +26,18 @@ hr{
     border-width: thick;
     border-bottom: none;
     width: 5%;
-    margin: 70px auto;
-    
-    
+    margin: 50px auto;
+     
+}
+.contents
+{
+    background-color: crimson;
+}
+h3
+{
+    color: white;
+}
+ul,p
+{
+    color: white;
 }
