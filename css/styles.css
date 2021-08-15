@@ -1,0 +1,23 @@
+body
+{
+    background-image: url('/images/bg-image.png');
+}
+
+
+.headings
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    font-weight: 900;
+    padding: 1rem;
+}
+
+hr{
+    border: dotted #fadce0;
+    border-width: thick;
+    border-bottom: none;
+    width: 5%;
+    margin: 70px auto;
+    
+    
+}
