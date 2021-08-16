@@ -5,11 +5,13 @@ body
 
 .headings
 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-family: 'Style Script', cursive;
+    font-size: 6em;
     font-weight: 900;
-    padding: 1rem;
     color: crimson;
+    padding: 2rem 0 0 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .heading2
@@ -22,16 +24,16 @@ body
 }
 
 hr{
-    border: dotted #fadce0;
+    border: dotted #f3b2ba;
     border-width: thick;
     border-bottom: none;
-    width: 5%;
-    margin: 50px auto;
+    width: 3%;
+    margin: 70px auto;
      
 }
 .contents
 {
-    background-color: crimson;
+    background-image: linear-gradient(crimson,rgb(236, 72, 105));
 }
 h3
 {
@@ -40,4 +42,8 @@ h3
 ul,p
 {
     color: white;
+}
+.sections
+{
+    background-image: url('images/bg-image.png');
 }
