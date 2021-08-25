@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+ "http://www.w3.org/TR/html4/frameset.dtd">
+ <html>
+     <head>
+         <title>Project 3</title>
+           <link rel="icon" href="favicon.ico">
+     </head>
+
+     <body style="background-image: url('./images/bg-image.png');background-size: 100vw;background-repeat: no-repeat;">
+         <h1 style="color: #2C394B;"><center>Composition prediction</center></h1>
+         <center>
+         <table cellspacing = "50" width="80%">
+             <tr>
+                 <td><img src="images/alloy.png" alt="alloy-img" width="300" height="300"></td>
+                 <td><h2 style="color: crimson;">Predicting composition of Cr-Mo alloy</h2>
+                    <h3 >Problem Description</h3>
+                    <hr>
+                    <p>Using the regression models in a real thermodynamic system.
+                        Applied two supervised algorithms, Linear regression and K-Nearest Neighbors to predict the composition values at various eta values.</p>
+                    <p ><b style="color: crimson;">Note:</b> Link is given at the bottom of the page</p></td>
+
+             </tr>
+             <hr>
+         </table>
+        </center>
+         <center>
+         <table cellspacing = "20" width = "90%">
+         <hr>
+            <tr>
+                <td>
+         <h2 style="color: crimson;">More about the project</h2>
+         <h3>What does eta values mean?</h3>
+         <p>These are dimensionless number, that represent normalized energy parameters which corresponds to:</p>
+         <ul>
+             <li>eta1 - first neighbor cluster</li>
+             <li>eta2 - second neighbor cluster</li>
+             <li>eta3 - third neighbor cluster</li>
+             <li>eta4 - fourth neighbor cluster</li>
+         </ul>
+         <br>
+         <h3>What are the other contents in the dataset?</h3>
+         <p>The dataset contains: u0, u1, u2, u3, u4, eta1, eta2, eta3, eta4. Here</p>
+         <ul>
+            <li>u0 - Composition</li>
+            <li>u1 - Correlation function for I-neighbor pair</li>
+            <li>u2 - Correlation function for II-neighbor pair</li>
+            <li>u3 - Correlation function for triangle</li>
+            <li>u4 - Correlation function for tetrahedron cluster</li>
+        </ul>
+            <br>
+            <h3>Results</h3>
+            <ul>
+                <li>Accuracy of linear model on training dataset : 49.709004178502795 %</li>
+                <li>Accuracy of linear model on testing dataset : 51.05961513782863 %</li>
+                <li>Accuracy of K-Nearest Neighbor model on training dataset : 59.11328125000001 %</li>
+                <li>Accuracy of K-Nearest Neighbor model on testing dataset : 51.05961513782863 %</li>
+                <h6>Using the efficient model, preferbly the KNN model can be used to predict the composition values at different eta values.</h6>
+            </ul>
+
+        </td>
+        <td>
+            <img src="images/phase.png" alt="phase-image" width="600" height="500">
+        </td>
+        </tr>
+        </table>
+    </center>
+        </body>
+        <hr>
+        <br>
+        <center>
+        <table cellspacing = "20" width="50%">
+            <tr>
+                <td>
+                    <img src="images/github.png" alt="github-link" width="100" height="100">
+                </td>
+                <td><a target=”_blank” style="text-decoration:none; color: #0F52BA" href="https://github.com/abhishekchavannn/Composition_prediction"><h2>GitHub Link of the project (Click Me!)</h2></a>
+                <p>Click on the heading to see the project uploaded on GitHub for more information.</p></td>
+            </tr>
+        </table>
+    </center>
+     </body>
+ </html>
