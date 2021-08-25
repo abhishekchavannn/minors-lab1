@@ -220,6 +220,8 @@ a {
 
 .card:hover {
   box-shadow: 5px 10px 20px black;
+  transition: 0.5s ease-in-out;
+
 }
 
 td {
